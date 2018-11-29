@@ -1,5 +1,5 @@
 /*
- * @(#) HttpSessionUtil.java 2015年11月10日
+ * @(#) HttpSessionUtil.java 
  * 
  * Copyright (c) 2015, SIMPO Technology. All Rights Reserved. SIMPO Technology. CONFIDENTIAL
  */
@@ -16,8 +16,6 @@ import com.aia.eservice.common.entity.frontend.wechat.WechatUserInfo;
  * session工具类
  * 
  * @Description
- * 
- * @author zhangfugen
  * @version 1.0
  * @since 2016年1月26日
  */
@@ -29,7 +27,6 @@ public class HttpSessionUtil {
     /**
      * 获取当前登录openId
      * 
-     * @author zhangfugen
      * @since 2016年1月26日
      * @param request
      * @return
@@ -47,7 +44,6 @@ public class HttpSessionUtil {
     /**
      * 设置当前登录用户对象
      * 
-     * @author zhangfugen
      * @since 2016年1月26日
      * @param request
      * @param userInfo
